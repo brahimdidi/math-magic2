@@ -1,4 +1,4 @@
-Math magic
+## Math magic
 Math magic is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 
 Make simple calculations. Read a random math-related quote. By building this application, you will learn how to use React.
@@ -6,26 +6,25 @@ Make simple calculations. Read a random math-related quote. By building this app
 Video Presentation
 Not available yet
 
-Live Demo with netifly
-[Website Link]https://animated-souffle-f25add.netlify.app//)
-
-Mini Demo
+## Live Demo
+not available yet
+## Mini Demo
 not available yet
 
-Screenshot
+## Screenshot
 not available yet
 
 Additional description about the project and its features.
 
-Built With
+## Built With
 Major languages: Html Css JS Frameworks: React Technologies used : Visual Studio Code
 
-Getting Started
+## Getting Started
 To get a local copy up and running follow these simple example steps.
 
 clone the repo using this command : git clone git@github.com:brahimdidi/math-magic.git opent the project with your favourite code editor(vscode, athom...) run npm install run npm start
 
-Prerequisites
+## Prerequisites
 A text editor(preferably Visual Studio Code)
 Install
 Git
