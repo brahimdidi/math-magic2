@@ -15,7 +15,6 @@ body {
   background-color: rgb(209 209 209);
 }
 
-
 .calculator .input {
   background: rgb(133 134 147);
   box-shadow: none;
@@ -24,7 +23,7 @@ body {
   width: 100%;
 }
 
-.calculator .input {
+.calculator div {
   text-align: right;
   font-size: 26px;
   color: white;
