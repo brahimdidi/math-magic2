@@ -15,13 +15,8 @@ body {
   background-color: rgb(209 209 209);
 }
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
 
-.calculator input {
+.calculator .input {
   background: rgb(133 134 147);
   box-shadow: none;
   border: none;
@@ -29,10 +24,11 @@ input::-webkit-inner-spin-button {
   width: 100%;
 }
 
-.calculator input::placeholder {
+.calculator .input {
   text-align: right;
   font-size: 26px;
   color: white;
+  padding: 10px;
 }
 
 .calculator-buttons {
@@ -48,6 +44,7 @@ input::-webkit-inner-spin-button {
 
 .bg-orange {
   background: rgb(238 144 61);
+  font-size: 25px;
 }
 
 button {
