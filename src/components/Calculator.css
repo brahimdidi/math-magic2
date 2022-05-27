@@ -4,7 +4,13 @@
 }
 
 body {
-  background: #f6f6f6;
+  background-image: url('https://cdn.pixabay.com/photo/2014/07/06/13/55/calculator-385506__480.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#root {
+  margin-top: 200px;
 }
 
 .calculator {
@@ -12,18 +18,17 @@ body {
   height: 500px;
   max-width: 500px;
   margin: 0 auto;
-  background-color: rgb(209 209 209);
+  background-color: white;
+  opacity: 0.9;
+  padding: 10px;
 }
 
-.calculator .input {
+.input {
   background: rgb(133 134 147);
   box-shadow: none;
-  border: none;
-  height: 15%;
+  border-radius: 10px;
+  height: 13%;
   width: 100%;
-}
-
-.calculator div {
   text-align: right;
   font-size: 26px;
   color: white;
@@ -35,6 +40,8 @@ body {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, 1fr);
   height: 85%;
+  gap: 4px;
+  margin-top: 10px;
 }
 
 .button-0 {
@@ -49,4 +56,6 @@ body {
 button {
   background: rgb(224 224 224);
   border-color: rgb(209 209 209);
+  border-radius: 10px;
+  cursor: pointer;
 }
