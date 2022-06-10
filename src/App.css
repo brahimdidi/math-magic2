@@ -7,17 +7,15 @@ body {
   background: #fff;
 }
 
-
-
-
 main {
   width: 90%;
   margin: 0 auto;
   align-items: center;
   margin-top: 200px;
 }
+
 .Home {
-  background-color: gainsboro ;
+  background-color: gainsboro;
   border: 1px solid whitesmoke;
   border-radius: 10px;
   padding: 10px;
@@ -36,32 +34,36 @@ main {
   background-color: aliceblue;
   border: 1px solid gainsboro;
 }
+
 .Navbar h1 {
   width: 70%;
   font-size: 30px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .Navbar-ul {
   display: flex;
   justify-content: space-around;
   width: 30%;
   list-style: none;
 }
+
 .Navbar-ul li {
   cursor: pointer;
   text-decoration: underline;
   letter-spacing: 2px;
 }
+
 link:hover {
   color: blue;
 }
 
-@media screen  and (max-width:500px){
+@media screen  and (max-width: 500px) {
   h1 {
     font-size: 20px;
   }
- .Navbar-ul {
+
+  .Navbar-ul {
     display: none;
   }
-  
 }
