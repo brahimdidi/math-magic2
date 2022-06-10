@@ -1,16 +1,14 @@
-* {
-  box-sizing: border-box;
-  font-size: 22px;
+.calculator-section {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding: 20px;
 }
-
-body {
-  background-image: url('https://cdn.pixabay.com/photo/2014/07/06/13/55/calculator-385506__480.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#root {
-  margin-top: 200px;
+.calculator-section .title {
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  padding: 10px;
 }
 
 .calculator {
@@ -24,7 +22,8 @@ body {
 }
 
 .input {
-  background: rgb(133 134 147);
+  /* background: rgb(133 134 147); */
+  background: rgb(20, 20, 20);
   box-shadow: none;
   border-radius: 10px;
   height: 13%;
@@ -49,12 +48,15 @@ body {
 }
 
 .bg-orange {
-  background: rgb(238 144 61);
+  /* background: rgb(238 144 61); */
+  background: rgb(20, 20, 20);
   font-size: 25px;
+  color: white;
 }
 
 button {
-  background: rgb(224 224 224);
+  /* background: rgb(224 224 224); */
+  background: rgb(224, 219, 219);
   border-color: rgb(209 209 209);
   border-radius: 10px;
   cursor: pointer;
