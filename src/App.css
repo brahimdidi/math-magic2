@@ -66,4 +66,18 @@ link:hover {
   .Navbar-ul {
     display: none;
   }
+
+  .calculator-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .calculator {
+    width: 100%;
+    height: 400px;
+  }
+
+  .calculator-section .title {
+    font-size: 25px;
+  }
 }

@@ -3,6 +3,9 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 20px;
+  background-color: gainsboro;
+  border: 3px solid rgb(211, 211, 211);
+  border-radius: 10px;
 }
 
 .calculator-section .title {
@@ -17,7 +20,7 @@
   height: 500px;
   max-width: 500px;
   margin: 0 auto;
-  background-color: white;
+  background-color: unset;
   opacity: 0.9;
   padding: 10px;
 }
@@ -57,7 +60,7 @@
 
 button {
   /* background: rgb(224 224 224); */
-  background: rgb(224, 219, 219);
+  background: white;
   border-color: rgb(209 209 209);
   border-radius: 10px;
   cursor: pointer;
